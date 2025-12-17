@@ -7,6 +7,10 @@ TagManager:
   - Anchor
   - Aliment
   - oeuf
+  - sucre
+  - vanille
+  - farine
+  - cuillere
   layers:
   - Default
   - TransparentFX
