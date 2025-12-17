@@ -6,7 +6,7 @@ public class BucheIngredientSocket : MonoBehaviour
     [SerializeField] private UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor socket;
     [SerializeField] private GameObject modelAvant;
     [SerializeField] private GameObject modelApres;
-    [SerializeField] private string ingredientTag = "Aliment";
+    [SerializeField] private string ingredientTag;
 
     private bool ingredientDejaAjoute = false;
 
