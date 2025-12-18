@@ -10,28 +10,34 @@ public class RecipeUI : MonoBehaviour
     [TextArea(2, 5)]
     public string[] steps;
 
-    private int currentStep = 0;
+    [Header("Référence logique")]
+    public RecipeManager recipeManager;
 
-    void Start()
+    private void Start()
     {
         if (steps.Length > 0)
-        {
-            recipeText.text = steps[currentStep];
-        }
+            recipeText.text = steps[0];
+
+        if (recipeManager != null)
+            recipeManager.OnStepCompleted += UpdateUI;
     }
 
-    // Appelé quand une étape est validée
+    private void OnDestroy()
+    {
+        if (recipeManager != null)
+            recipeManager.OnStepCompleted -= UpdateUI;
+    }
+
+    private void UpdateUI(int stepIndex)
+    {
+        if (stepIndex < steps.Length)
+            recipeText.text = steps[stepIndex];
+        else
+            recipeText.text = "shallah c bon ";
+    }
+
     public void NextStep()
     {
-        currentStep++;
-
-        if (currentStep < steps.Length)
-        {
-            recipeText.text = steps[currentStep];
-        }
-        else
-        {
-            recipeText.text = "Normalement on est bon la";
-        }
+        throw new System.NotImplementedException();
     }
 }
