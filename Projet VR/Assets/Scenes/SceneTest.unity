@@ -4440,6 +4440,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430893808}
   m_CullTransparentMesh: 1
+--- !u!1 &442172858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 442172860}
+  - component: {fileID: 442172859}
+  m_Layer: 0
+  m_Name: RecipeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &442172859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442172858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdb1d45282e1494bac4096d4d076704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeManager
+  currentStepIndex: 0
+--- !u!4 &442172860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442172858}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.81436, y: 0.61663, z: -11.39314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &442983194
 GameObject:
   m_ObjectHideFlags: 0
@@ -15104,6 +15149,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1511223842}
+  - component: {fileID: 1511223843}
   m_Layer: 0
   m_Name: SalladierVide
   m_TagString: Untagged
@@ -15128,6 +15174,26 @@ Transform:
   - {fileID: 65440059}
   m_Father: {fileID: 1631325997}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1511223843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511223841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b5842c0bfbde447a691ac08a7a41cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeSocketStep
+  recipeManager: {fileID: 442172859}
+  stepIndex: 0
+  socket: {fileID: 65440061}
+  requiredTag: oeuf
+  consumeInsertedObject: 1
+  modelAvant: {fileID: 565304066}
+  modelApres: {fileID: 125820427}
+  disableSocketAfterSuccess: 1
 --- !u!1 &1524742280
 GameObject:
   m_ObjectHideFlags: 0
@@ -23952,3 +24018,4 @@ SceneRoots:
   - {fileID: 1825945902}
   - {fileID: 1813667219}
   - {fileID: 1263604983}
+  - {fileID: 442172860}
