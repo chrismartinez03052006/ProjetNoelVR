@@ -3519,7 +3519,6 @@ GameObject:
   - component: {fileID: 312851931}
   - component: {fileID: 312851930}
   - component: {fileID: 312851929}
-  - component: {fileID: 312851928}
   m_Layer: 0
   m_Name: ModelBucheSansGlassage
   m_TagString: Untagged
@@ -3536,40 +3535,13 @@ Transform:
   m_GameObject: {fileID: 312851926}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.44000006, y: 0, z: 4.55}
+  m_LocalPosition: {x: 0.32, y: 0, z: 2.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1582233285}
   m_Father: {fileID: 77458322}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &312851928
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 312851926}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!136 &312851929
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15824,7 +15796,6 @@ GameObject:
   - component: {fileID: 1322855213}
   - component: {fileID: 1322855212}
   - component: {fileID: 1322855211}
-  - component: {fileID: 1322855210}
   m_Layer: 0
   m_Name: ModelPlatAvecPatecuite
   m_TagString: Untagged
@@ -15848,33 +15819,6 @@ Transform:
   - {fileID: 766685549}
   m_Father: {fileID: 77458322}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1322855210
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322855207}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!136 &1322855211
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18779,7 +18723,7 @@ MonoBehaviour:
   stepIndex: 15
   socket: {fileID: 1582233287}
   requiredTag: BMF
-  consumeInsertedObject: 0
+  consumeInsertedObject: 1
   modelAvant: {fileID: 312851926}
   modelApres: {fileID: 1789050659}
   disableSocketAfterSuccess: 1
@@ -20961,7 +20905,7 @@ Transform:
   m_GameObject: {fileID: 1789050659}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.44000006, y: 0, z: 4.55}
+  m_LocalPosition: {x: 0.32, y: 0, z: 2.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24262,7 +24206,7 @@ Transform:
   m_GameObject: {fileID: 2118272495}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6, y: 0, z: 0}
+  m_LocalPosition: {x: 2.2, y: 0, z: 4.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
