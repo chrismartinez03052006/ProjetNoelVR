@@ -23438,6 +23438,155 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018379304}
   m_CullTransparentMesh: 0
+--- !u!1001 &2022110843
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3746484593052731979, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746484593052731979, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746484593052731979, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746484593052731979, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.6541457
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746484593052731979, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746484593052731979, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7563686
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746484593052731979, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746484593052731979, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746484593052731979, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 261.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746484593052731979, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: recipeManager
+      value: 
+      objectReference: {fileID: 442172859}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: steps.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[0]'
+      value: Mettre 1 oeuf dans le saladier
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[1]'
+      value: Mettre le sucre dans le saladier
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[2]'
+      value: Mettre la vanille
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[3]'
+      value: Ajouter de la farine dans le saladier
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[4]'
+      value: "M\xE9langer le tout."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[5]'
+      value: "\xC9taler la p\xE2te sur le plat"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[6]'
+      value: Mettre le plat au four
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[7]'
+      value: "Remplir la casserole d\u2019eau "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[8]'
+      value: Mettre la casserole sur le feu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[9]'
+      value: 'Mettre le chocolat dans le saladier '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[10]'
+      value: 'Mettre le beurre dans le saladier '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[11]'
+      value: "Ajouter l\u2019\u0153uf"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[12]'
+      value: Ajouter le sucre
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[13]'
+      value: "M\xE9langer "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[14]'
+      value: "\xC9taler la pr\xE9paration sur la p\xE2te et rouler en forme de b\xFBche "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[15]'
+      value: "\xC9taler la pr\xE9paration sur la b\xFBche "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[16]'
+      value: 'C''est fini ! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[17]'
+      value: 'C''est fini ! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[18]'
+      value: 'C''est fini ! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[19]'
+      value: 'C''est fini ! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796619244934186034, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: 'steps.Array.data[20]'
+      value: 'C''est fini ! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086452954491621617, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
+      propertyPath: m_Name
+      value: TestUIYuu
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf0a99692cb7cd949a1ed6279e6fbe92, type: 3}
 --- !u!1 &2026382144
 GameObject:
   m_ObjectHideFlags: 0
@@ -27224,3 +27373,4 @@ SceneRoots:
   - {fileID: 1904072260}
   - {fileID: 1114155587}
   - {fileID: 143208655}
+  - {fileID: 2022110843}
