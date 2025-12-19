@@ -12,6 +12,13 @@ TagManager:
   - farine
   - cuillere
   - saladierF
+  - platP
+  - foure
+  - Casserole
+  - CasseroleEau
+  - Chocolat
+  - Beurre
+  - BMF
   layers:
   - Default
   - TransparentFX
